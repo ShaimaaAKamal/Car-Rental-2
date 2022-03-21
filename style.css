@@ -1,0 +1,520 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: sans-serif, monospace;
+}
+
+.container {
+    width: 100%;
+}
+
+.section_1 {
+    background: url("Images/header-bg.jpg") no-repeat center center;
+}
+
+.section_1 .head,
+.section_5 .head {
+    background-color: rgba(4, 2, 9, 0.75);
+
+}
+
+.section_1 .head {
+    padding-top: 1%;
+
+}
+
+.inner_container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    width: 70%;
+}
+
+header nav {
+    float: right;
+    padding-right: 20px;
+}
+
+header figure {
+    float: left;
+    padding-top: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: yellow;
+    display: block;
+    padding: 10px 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+header nav ul li a:hover {
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+header + div aside {
+    width: 55%;
+    float: left;
+    color: white;
+    padding-top: 12%;
+}
+
+header + div aside h5 {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #fefefead;
+}
+
+header + div aside h1 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header + div aside p {
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: #fefefead;
+    margin-bottom: 20px;
+}
+
+header + div form {
+    width: 40%;
+    float: right;
+    border: 1px solid #fefefead;
+    color: white;
+    background-color: #16167e38;
+    box-sizing: border-box;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 4%;
+    font-size: 0.95rem;
+    margin-top: 4%;
+}
+
+header + div form * {
+    box-sizing: border-box;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 5px;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-transform: capitalize;
+}
+
+select:invalid {
+    color: gray;
+}
+
+.wid-left {
+    width: 38%;
+    margin-right: 1.5%;
+    float: left;
+}
+
+.wid-right {
+    width: 38%;
+    margin-left: 1.5%;
+    float: right;
+}
+
+.submit {
+    background-color: #ffb42c;
+    color: white;
+    text-transform: uppercase;
+}
+
+.format {
+    background-color: #ffb42c;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 0.65rem;
+    padding: 2% 5%;
+    text-decoration: none;
+}
+
+.section_2 .inner_container h2,
+.section_2 .inner_container h5 {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.section_2 .inner_container h5,
+.section_6 h5 {
+    color: #ccc;
+}
+
+.section_2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section_2 article {
+    width: 30%;
+    background-color: #ededf7;
+    padding: 3%;
+    box-sizing: border-box;
+    border-radius: 5%;
+    margin-right: 3%;
+    float: left;
+    margin-bottom: 3%;
+}
+
+.section_2 article img {
+    float: left;
+}
+
+.section_2 article h3 {
+    float: left;
+    text-transform: capitalize;
+    padding-left: 4%;
+    font-size: 0.85rem;
+    padding-top: 2%;
+
+}
+
+.section_2 article p,
+.section_3 p,
+.section_4 p,
+.section_5 p,
+.section_6 p {
+    color: #ccc;
+    text-transform: capitalize;
+    margin-top: 7%;
+    font-size: 0.75rem;
+    text-align: justify;
+    word-spacing: 1px;
+}
+
+.section_3 p,
+.section_4 p {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.section_4 p,
+.section_5 p,
+.section_6 p {
+    margin-top: 1.5%;
+    margin-bottom: 2.5%;
+}
+
+.section_6 p {
+    text-align: center;
+}
+
+.section_5 p {
+    text-align: center;
+}
+
+.section_3 {
+    padding: 5% 8%;
+}
+
+.section_3 img {
+    width: 55%;
+    float: left;
+    border: 1px solid yellow;
+}
+
+.section_3 figcaption {
+    width: 40%;
+    float: right;
+    padding-top: 10%;
+}
+
+.section_3 h2 {
+    text-transform: capitalize;
+}
+
+.section_3 h5 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.section_4 .inner_container h5,
+.section_6 h5 {
+    color: #ccc;
+    text-align: center;
+    margin-top: 0.5%;
+}
+
+.section_6 h5 {
+    font-weight: normal;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 5%;
+}
+
+.section_4 .inner_container h2,
+.section_5 .inner_container h2,
+.section_6 h2 {
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.65rem;
+}
+
+.section_4 figcaption {
+    float: left;
+    width: 50%;
+    padding-top: 10%;
+}
+
+.span2 {
+    color: #ffb42c;
+    font-weight: bold;
+    font-size: 1.45rem;
+    float: right;
+}
+
+.span1 {
+    font-weight: bold;
+    float: left;
+    font-size: 1.45rem;
+}
+
+.section_4 img {
+    float: right;
+    width: 46%;
+}
+
+.section_4 figcaption div {
+    color: #ccc;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 0.5%;
+}
+
+.section_4 ul {
+    list-style-type: square;
+    list-style-position: outside;
+    float: left;
+    margin-top: 4%;
+    padding-left: 45%;
+    margin-bottom: 3%;
+}
+
+.section_4 ul li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: grey;
+}
+
+.section_4 ul li:first-child {
+    background-color: #ffb42c;
+}
+
+.section_4 figcaption a {
+    background-color: black;
+    margin-top: 2%;
+}
+
+.section_5 {
+    background: url("Images/callaction-bg.jpg") no-repeat center bottom;
+    text-align: center;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.section_5 .head {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.section_5 a {
+    background-color: transparent;
+    border: 1px solid #ffb42c;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    color: #ffb42c;
+}
+
+.section_6 {
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-bottom: 5%;
+}
+
+.section_6 article {
+    width: 22%;
+    float: left;
+    margin-right: 3%;
+    margin-right: 3%;
+
+}
+
+.section_6 article h3 {
+    background-color: black;
+    color: white;
+    width: 60%;
+    font-size: 0.95rem;
+    padding: 1% 4%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.section_6 article p {
+    color: #bbb;
+    text-transform: capitalize;
+    margin-top: 4%;
+    font-size: 0.75rem;
+    margin-bottom: 4%;
+    text-align: justify;
+}
+
+
+.like {
+    list-style-image: url("Images/icons/like-ico.jpg");
+    float: left;
+    font-size: 0.68rem;
+    color: #bbb;
+    width: 40%;
+    list-style-position: inside;
+    padding-top: 2%;
+}
+
+.comment {
+    width: 55%;
+    list-style-image: url("Images/icons/ico6.jpg");
+    float: right;
+    color: #bbb;
+    font-size: 0.68rem;
+    list-style-position: inside;
+    box-sizing: border-box;
+}
+
+.ali {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_6 .inner_container {
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+footer {
+    background-color: #000;
+}
+
+footer .inner_container .div {
+    margin-top: 5%;
+    width: 15%;
+    float: left;
+    /*    margin-right:2%;*/
+}
+
+footer .inner_container .div3 {
+    width: 30%;
+    float: left;
+    /*    margin-right:2%;*/
+
+}
+
+footer .inner_container div h3 {
+    color: white;
+    margin-bottom: 16%;
+}
+
+footer .inner_container .div3 h3 {
+    color: white;
+    margin-bottom: 8%;
+}
+
+footer .inner_container .div p {
+    color: #333;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 0.75rem;
+}
+
+footer .inner_container .div3 p {
+    color: #333;
+    margin-top: 2.5%;
+    margin-bottom: 3%;
+    font-size: 0.85rem;
+}
+
+.div2 input {
+    padding: 2%;
+    margin-bottom: 2%;
+    text-transform: capitalize;
+    border-radius: 0px;
+    width: 70%;
+    display: inline-block;
+    border: none;
+}
+
+.div2 .input {
+    width: 8%;
+    background-color: orange;
+    color: white;
+}
+
+.last {
+    color: #333;
+    margin-top: 2.5%;
+    margin-bottom: 3%;
+    font-size: 0.85rem;
+    text-align: center;
+    padding-bottom: 4%;
+
+}
+
+.ali {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+/*
+
+.div2 input{
+    border-radius: 0px;
+    width:77%;
+    display:inline-block;
+    border: none;
+}
+
+.div2 .input{
+    width:5%;
+    background-color: orange;
+    color:white;
+}
+.last{
+    text-align: center;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+*/
